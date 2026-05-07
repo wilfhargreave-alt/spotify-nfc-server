@@ -30,6 +30,7 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
 # (PUT YOUR LINKS HERE)
 # ----------------------------
 MEDIA = {
+    "046D2406CC2A81": "spotify:album:0f7R0jf0pcTb6K6IVVPcMD", 
     "album_01": "spotify:album:0f7R0jf0pcTb6K6IVVPcMD",
     "album_02": "spotify:album:6XvFfMcmZmAcntrLNWfUr5",
     "album_03": "spotify:album:2PmWuTXfKGX4Tx26VSdUQu",
