@@ -56,6 +56,10 @@ MEDIA = {
 # ----------------------------
 app = Flask(__name__)
 
+@app.route("/")
+def home():
+    return "Server is running"
+
 @app.route("/play", methods=["POST"])
 def play():
     data = request.json
